@@ -1,0 +1,121 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#heading_margin{
+    margin-top: 64px !important;
+}
+
+/* cards */
+
+.icon-circle {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #f8f9fa;
+    color: #ff6a00;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 15px;
+}
+.card-info {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+.card-info:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width:768px)
+{
+    .card-info {
+        margin-top: 15px;
+    }
+  
+}
+
+@media (max-width:998px)
+{
+    #heading_margin {
+        margin-top: 75px !important;
+    }
+  
+}
+
+.form-control:focus{
+    border-color: #ff6a00;
+    border: 3px solid #ff6a00;
+}
+
+/* contact us */
+
+.contact_bg {
+    background: linear-gradient(to bottom, #f0e9e9, #fcfafa);
+    padding: 60px 0;
+}
+
+.contact-form {
+    background: white;
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form h2 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    color:#ff6a00; 
+    margin-bottom: 25px;
+}
+
+.form-label {
+    display: none;
+}
+
+.form-control {
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #ff6a00 !important;
+    color: #ff6a00;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.form-control::placeholder {
+    color: #444;
+}
+
+.contact-form .btn-s {
+    background: linear-gradient(90deg, #ff6a00, #ffcc00);
+    color: white;
+    border: none;
+    padding: 10px 22px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    width: 40%;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form .btn-s:hover {
+    background: linear-gradient(90deg, #ff6a00, #ffcc00);
+    box-shadow: 0 6px 12px linear-gradient(90deg, #ff6a00, #ffcc00);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact-form {
+        padding: 20px;
+    }
+    .contact-form .btn-s {
+        width: 60%;
+    }
+}

@@ -1,0 +1,52 @@
+#Ourgallary_margin{
+    margin-top: 64px
+}
+
+@media (max-width:998px) {
+    #Ourgallary_margin{
+        margin-top: 75px !important;
+    }
+}
+
+@media (max-width:768px) {
+    .image-container img {
+        padding: 12px;
+   }
+   .custom-btn {
+    width: 55% !important;
+   }
+}
+
+.image-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+
+
+.custom-btn {
+    background: linear-gradient(90deg, #ff6a00, #ffcc00);
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+    width: 30%;
+    position: relative;
+    bottom: 35px;
+}
+
+.custom-btn i {
+    margin-right: 8px; 
+}
