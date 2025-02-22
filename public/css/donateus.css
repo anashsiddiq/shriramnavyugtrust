@@ -1,0 +1,20 @@
+.donate-form {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.donate-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.btn-donate {
+    background-color: #28a745;
+    color: white;
+}
+.btn-donate:hover {
+    background-color: #218838;
+}

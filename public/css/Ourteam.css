@@ -29,8 +29,15 @@
     margin: 0 auto;
     color: #ff6a00;
     font-size: 32px;
+    transition: color 0.3s ease-in, background-color 0.3s ease-in;
+}
+.icon-team i {
+    transition: color 0.3s ease-in;
 }
 
+.icon-team:hover i {
+    color: yellow;
+}
 /* button */
 
 .custom-btn {

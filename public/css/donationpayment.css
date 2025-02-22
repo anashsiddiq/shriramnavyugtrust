@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.payment-table th {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+}
+
+.payment-table td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.payment-table .badge {
+    font-size: 0.9rem;
+    padding: 5px 10px;
+}
+
+.container h2 {
+    font-weight: bold;
+    color: #4e73df;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .payment-table th, .payment-table td {
+        font-size: 0.9rem;
+    }
+}

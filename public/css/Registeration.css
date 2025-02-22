@@ -1,0 +1,39 @@
+body {
+    background-color: #f8f9fa;
+}
+.register-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.register-container img {
+    display: block;
+    margin: 0 auto 10px;
+    width: 80px;
+    height: 80px;
+    transform: translateY(-55px);
+}
+
+.register-container h3{
+    position: relative;
+    bottom: 35px;
+}
+    
+.btn-color{
+    background: linear-gradient(90deg, #ff6a00, #ffcc00);
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+    width: 30%;
+    position: relative;
+    top: 2px;
+}
+  

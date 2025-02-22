@@ -15,6 +15,22 @@
        }
 }
 
+.border-box {
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.border-box {
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
 .custom-btn {
     background: linear-gradient(90deg, #ff6a00, #ffcc00);
     color: white;
@@ -28,11 +44,15 @@
     width: 30%;
     position: relative;
     bottom: 35px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .custom-btn i {
     margin-right: 8px; 
+}
+
+
+@media (max-width:768px) {
+    .custom-btn {
+        width: 55% !important;
+       }
 }

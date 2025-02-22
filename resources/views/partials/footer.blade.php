@@ -1,73 +1,94 @@
-<footer id="footer" class="footer bg-dark dark-background mt-4">
+<footer id="footer" class="footer bg-dark dark-background mt-4 py-4">
+  <div class="container">
+    <div class="row d-flex justify-content-between align-items-start">
+      <!-- Footer About -->
+      <div class="col-lg-3 col-md-6 footer-about">
+      <div class="image-container">
+    <a href="{{route('index')}}" class="d-inline-block">
+        <img src="https://bhagvahindvahini.in/webimg/1001266736_0132025174307.png" 
+             alt="Description" 
+             class="img-fluid rounded image_short" 
+             width="200">
+    </a>
+</div>
+        <div class="social-links d-flex mt-4">
+          <a href="#" class="text-decoration-none text-white me-3"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="text-decoration-none text-white me-3"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="text-decoration-none text-white me-3"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="text-decoration-none text-white"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
 
-    <div class="container footer-top">
-      <div class="row no-gutters">
-        <div class="col-lg-4 col-md-6 footer-about">
-          <a href="index.html" class="logo d-flex align-items-center">
-            <!-- <span class="sitename">Dewi</span> -->
-          </a>
-          <div class="footer-contact text-white pt-3">
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-            <p><strong>Email:</strong> <span>info@example.com</span></p>
-          </div>
-          <div class="social-links d-flex mt-4 ">
-  <a href="#" class="text-decoration-none text-white rounded-5"><i class="fab fa-twitter"></i></a>
-  <a href="#" class="text-decoration-none text-white rounded-5"><i class="fab fa-facebook-f"></i></a>
-  <a href="#" class="text-decoration-none text-white rounded-5"><i class="fab fa-instagram"></i></a>
-  <a href="#" class="text-decoration-none text-white rounded-5"><i class="fab fa-linkedin-in"></i></a>
+      <!-- Our Services -->
+      <div class="col-lg-2 col-md-3 text-white footer-links">
+      <h4 class="text-uppercase">About</h4>
+        <ul class="list-unstyled">
+          <li><i class="fa fa-chevron-right"></i> <a href="{{ route('index') }}">Home</a></li>
+          <li><i class="fa fa-chevron-right"></i> <a href="{{ route('index') }}">About Us</a></li>
+          <li><i class="fa fa-chevron-right"></i> <a href="{{ route('MissonandVison') }}">Mission And Vision</a></li>
+          <li><i class="fa fa-chevron-right"></i> <a href="{{ route('OurManagement') }}">Our Management body</a></li>
+          <li><i class="fa fa-chevron-right"></i> <a href="{{ route('Ourteam') }}">Our Team</a></li>
+        </ul>
+      </div>
+
+      <!-- Other Services -->
+      <div class="col-lg-2 col-md-3 text-white footer-links">
+      <h4 class="text-uppercase">Quick Link</h4>
+        <ul class="list-unstyled">
+          <li><i class="fa fa-chevron-right"></i> <a href="{{ route('Achievements') }}">Achivements</a></li>
+          <li><i class="fa fa-chevron-right"></i> <a href="{{ route('certificate') }}">Certifications</a></li>
+          <li><i class="fa fa-chevron-right"></i> <a href="{{ route('OurProjects') }}">Our projects</a></li>
+          <li><i class="fa fa-chevron-right"></i> <a href="{{ route('pressmedia') }}">Press/Media Gallary</a></li>
+          <li><i class="fa fa-chevron-right"></i> <a href="{{ route('Photogallary') }}">Photo Gallary</a></li>
+        </ul>
+      </div>
+
+      <!-- Useful Links -->
+      <div class="col-lg-2 col-md-3 text-white footer-links">
+        <h4 class="text-uppercase">Polices</h4>
+        <ul class="list-unstyled">
+          <li><i class="fa fa-chevron-right"></i> <a href="{{ route('Termandcondition') }}">Term And Conditions</a></li>
+          <li><i class="fa fa-chevron-right"></i> <a href="{{ route('RefundReturn') }}">Refund And Return Policy</a></li>
+          <li><i class="fa fa-chevron-right"></i> <a href="{{ route('PrivercyAndPolicy') }}">Privacy Policy</a></li>
+        </ul>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="col-lg-3 col-md-12 text-white footer-contact">
+    <h4>Contact Us</h4>
+    <p>Get in touch with us for any queries or support.</p>
+    <div class="d-flex align-items-center mb-3">
+        <i class="fas fa-map-marker-alt me-2"></i>
+        <span>123 Street, City, Country</span>
+    </div>
+    <div class="d-flex align-items-center mb-3">
+        <i class="fas fa-phone me-2"></i>
+        <span>+123 456 7890</span>
+    </div>
+    <div class="d-flex align-items-center mb-3">
+        <i class="fas fa-envelope me-2"></i>
+        <span>info@example.com</span>
+    </div>
+    <div class="d-flex align-items-center">
+        <i class="fas fa-clock me-2"></i>
+        <span>Mon - at: 9:00 AM - 6:00 PM</span>
+    </div>
 </div>
 
-        </div>
 
-        <div class="col-lg-2 col-md-3 text-white footer-links">
-          <h4>Useful Links</h4>
-          <ul>
-            <li><i class="fa fa-chevron-right"></i> <a href="#" >Home</a></li>
-            <li><i class="fa fa-chevron-right"></i> <a href="#" >About us</a></li>
-            <li><i class="fa fa-chevron-right"></i> <a href="#" >Services</a></li>
-            <li><i class="fa fa-chevron-right"></i> <a href="#" >Terms of service</a></li>
-            <li><i class="fa fa-chevron-right"></i> <a href="#" >Privacy policy</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-md-3 text-white footer-links">
-          <h4>Our Services</h4>
-          <ul>
-            <li><i class="fa fa-chevron-right"></i> <a href="#">Web Design</a></li>
-            <li><i class="fa fa-chevron-right"></i> <a href="#">Web Development</a></li>
-            <li><i class="fa fa-chevron-right"></i> <a href="#">Product Management</a></li>
-            <li><i class="fa fa-chevron-right"></i> <a href="#">Marketing</a></li>
-            <li><i class="fa fa-chevron-right"></i> <a href="#">Graphic Design</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-4 col-md-12 text-white footer-newsletter">
-          <h4>Our Newsletter</h4>
-          <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
-          <form action="forms/newsletter.php" method="post" class="php-email-form">
-            <div class="newsletter-form">
-              <input type="email" name="email" class="form-control" placeholder="Enter your email">
-              <button type="submit" class="btn subscribe_color">Subscribe</button>
-            </div>
-            <div class="loading">Loading</div>
-            <div class="error-message"></div>
-            <div class="sent-message">Your subscription request has been sent. Thank you!</div>
-          </form>
-        </div>
-
-      </div>
     </div>
+  </div>
 
-    <div class="container copyright text-white text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">Dewi</strong> <span>All Rights Reserved</span></p>
-      <div class="credits">
-        Designed by <a href="">BootstrapMade</a> Distributed by <a href="">Design</a>
-      </div>
+  <!-- Footer Bottom -->
+  <div class="container text-center text-white mt-4">
+    <p>© <span>Copyright</span> <strong class="px-1 sitename">Dewi</strong> <span>All Rights Reserved</span></p>
+    <div class="credits">
+      Designed by <a href="">BootstrapMade</a> Distributed by <a href="">Design</a>
     </div>
-
+  </div>
 </footer>
+
+
 
 
 <!-- Include Bootstrap JS -->

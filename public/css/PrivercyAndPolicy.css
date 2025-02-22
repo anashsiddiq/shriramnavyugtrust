@@ -1,0 +1,46 @@
+#PrivercyAndPolicy{
+    margin-top: 64px !important
+}
+
+@media (max-width:998px) {
+    #PrivercyAndPolicy{
+        margin-top: 75px !important;
+    }
+}
+
+@media (max-width:768px) {
+    
+    .custom-btn {
+        width: 55% !important;
+       }
+}
+
+
+.custom-btn {
+    background: linear-gradient(90deg, #ff6a00, #ffcc00);
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+    width: 30%;
+    position: relative;
+    bottom: 35px;
+}
+
+.custom-btn i {
+    margin-right: 8px; 
+}
+
+.lead{
+    font-size:15px;
+}
+
+@media (max-width:768px) {
+    .custom-btn {
+        width: 55% !important;
+       }
+}

@@ -117,6 +117,11 @@ body {
   
 }
 
+@media (min-width: 992px) {
+     .navbar-nav {
+        font-size: 13px;
+    }
+}
 nav {
     height: 11vh;
 }
@@ -150,7 +155,7 @@ nav {
 
 #links_left {
     position: absolute;
-    top: 80px;
+    top: 83px;
     left: 0px;
     background-color: white;
     display: flex;
@@ -197,7 +202,7 @@ nav {
 }
 
 #container_height {
-    height: 12vh;
+    height: 18vh;
     background-color: #ffcc00 !important;
 
 }
@@ -296,6 +301,54 @@ nav {
         position: relative;
         bottom: 33px;
     }
+    #container_height {
+        height: 14vh;
+        background-color: #ffcc00 !important;
+    
+    }
+    .carousel-caption{
+        top: 70% !important;
+    }
+
+    .donate-btn{
+      margin-left: -10px !important;
+      margin-top: 10px !important;
+    }
+   
+}
+
+
+@media (max-width:767px) {
+    
+    .carousel-caption h5{
+        font-size: 15px;
+    }
+
+    .carousel-caption p {
+        font-size: 13px;
+    }
+
+    .image-container {
+        display: flex !important;
+        justify-content: start !important;
+        align-items: start !important;
+    }
+
+    .social-links{
+        display: flex !important;
+        justify-content: start !important;
+        align-items: start !important;
+        margin-bottom: 30px;
+        margin-top: 30px !important;
+      }
+   
+}
+
+@media (min-width:998px) {
+   .news-box{
+    position: relative;
+    bottom: 3px;
+   }
    
 }
 
@@ -498,6 +551,17 @@ nav {
     }
 }
 
+ .donate-btn {
+    background-color: #ff5722; 
+    color: #fff !important; 
+    padding: 8px 16px; 
+    border-radius: 25px;
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+    left: 5px;
+}
+
 /* card 2 */
 
 .card_design {
@@ -517,6 +581,16 @@ nav {
     margin: 0 auto 15px;
     font-size: 30px;
     color: #ff6a00;
+    transition: color 0.3s ease-in, background-color 0.3s ease-in;
+}
+
+
+.icon-container i {
+    transition: color 0.3s ease-in;
+}
+
+.icon-container:hover i {
+    color: yellow;
 }
 .cart-text {
     margin-bottom: 10px;
@@ -591,6 +665,16 @@ nav {
     border-radius: 50%;
     display: inline-block;
     margin-bottom: 15px;
+    transition: color 0.3s ease-in, background-color 0.3s ease-in;
+}
+
+
+.icon-circle i {
+    transition: color 0.3s ease-in;
+}
+
+.icon-circle:hover i {
+    color: yellow;
 }
 .icon-card h5 {
     font-weight: 600;
@@ -663,6 +747,15 @@ nav {
     justify-content: center;
     font-size: 30px;
     margin: 0 auto 15px;
+    transition: color 0.3s ease-in, background-color 0.3s ease-in;
+}
+
+.icon-containers i {
+    transition: color 0.3s ease-in;
+}
+
+.icon-containers:hover i {
+    color: yellow;
 }
   /* card 4 */
 
@@ -717,6 +810,11 @@ nav {
     margin-right: 10px;
     transition: 0.3s;
   }
+  .social-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   
   .footer .social-links a:hover {
     color: #ff6600;
@@ -767,9 +865,6 @@ nav {
     color: #ff6600;
   }
   
-  .footer .footer-contact p {
-    margin-bottom: 5px;
-  }
   
   .footer .footer-newsletter .newsletter-form {
     margin-top: 30px;
@@ -809,7 +904,16 @@ nav {
     transition: 0.3s;
     border-radius: 0 4px 4px 0;
   }
-  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  .image_short{
+    width: 145px;
+    margin: auto;
+  }
   .footer .footer-newsletter .newsletter-form input[type=submit]:hover {
     background: rgba(255, 102, 0, 0.8);
   }

@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.payment-container {
+    max-width: 900px;
+    margin: 50px auto;
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #4CAF50;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.table th {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+}
+
+.table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.btn-pay {
+    background-color: #FF9800;
+    border: none;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.btn-pay:hover {
+    background-color: #e68900;
+    transform: scale(1.05);
+}
+
+.status-paid {
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+.status-unpaid {
+    color: #F44336;
+    font-weight: bold;
+}

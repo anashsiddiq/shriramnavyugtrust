@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.account-box {
+    max-width: 700px;
+    margin: 50px auto;
+    background: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Table Header */
+.account-table th {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+}
+
+/* Table Rows */
+.account-table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Responsive Table */
+.table-responsive {
+    overflow-x: auto;
+}
+
+/* Box Header */
+.account-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}

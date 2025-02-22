@@ -2,6 +2,8 @@
 
 <link rel="stylesheet" href="{{ asset('css/Contact.css') }}">
 
+
+
 <!-- headings 1 start -->
     <div class="text-center bg-primary mt-5 text-white mt-5 py-3 website_heading" id="heading_margin">
         <h2 class="m-0">Contact us</h2>
@@ -94,4 +96,29 @@
     </div>
 </div>
     
+<div class="container">
+    <div class="row g-3"> <!-- Added Bootstrap gap -->
+        <!-- Left Side: Map -->
+        <div class="col-md-6 p-0 pe-md-3"> 
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12691.073304969351!2d-73.98513029323284!3d40.7588960040979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258f65aa546d1%3A0xb98a93e05a7e1b44!2sTimes%20Square%2C%20New%20York%2C%20NY!5e0!3m2!1sen!2sus!4v1635331654542!5m2!1sen!2sus" 
+                        allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+
+        <!-- Right Side: Image with Overlay -->
+        <div class="col-md-6 p-0 ps-md-3">
+            <div class="image-container d-flex align-items-center justify-content-center">
+                <div class="overlay text-white p-4">
+                    <h2 class="fw-bold">Heading</h2>
+                    <p>Monday - Saturday :- 10:00 AM - 06:30 PM.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
 @include('partials.footer')

@@ -110,6 +110,41 @@
     box-shadow: 0 6px 12px linear-gradient(90deg, #ff6a00, #ffcc00);
 }
 
+
+.map-container {
+    height: 100vh;
+}
+.map-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.image-container {
+    position: relative;
+    background: url("https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701304401.jpg") center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    max-width: 80%;
+}
+.overlay h2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+@media (max-width: 768px) {
+    .map-container, .image-container {
+        height: 50vh;
+    }
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .contact-form {

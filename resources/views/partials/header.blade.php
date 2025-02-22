@@ -100,19 +100,19 @@
                     <li class="nav-item"><a class="nav-link active" href="{{ route('OurManagement') }}">Our Management Body</a></li>
                     <li class="nav-item"><a class="nav-link active" href="{{ route('Photogallary') }}">Photo Gallery</a></li>
                     <li class="nav-item"><a class="nav-link active" href="{{ route('Achievements') }}">Achivements</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="{{ route('index') }}">Upcoming Event</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="{{ route('index') }}">Donate</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="{{ route('index') }}">List Donors</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="{{ route('index') }}">Contact us</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="{{ route('certificate') }}">Certifications</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="{{ route('OurProjects') }}">OurProjects</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="{{ route('pressmedia') }}">Press Media/Gallary</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="{{ route('contact') }}">Contact us</a></li>
 
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             About Us
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
-                            <li><a class="dropdown-item" href="{{ route('index') }}">About us</a></li>
+                            <li><a class="dropdown-item" href="{{ route('Aboutus') }}">About us</a></li>
                             <li><a class="dropdown-item" href="{{ route('Ourteam') }}">Our Team</a></li>
-                            <li><a class="dropdown-item" href="{{ route('index') }}">Our Vison / Mission</a></li>
+                            <li><a class="dropdown-item" href="{{ route('MissonandVison') }}">Our Vison / Mission</a></li>
                         </ul>
                     </li>
 
@@ -121,9 +121,9 @@
                             Important Links
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="importantLinksDropdown">
-                            <li><a class="dropdown-item" href="{{ route('index') }}">Terms and Conditions</a></li>
-                            <li><a class="dropdown-item" href="{{ route('index') }}">Privacy Policy</a></li>
-                            <li><a class="dropdown-item" href="{{ route('index') }}">FAQs</a></li>
+                            <li><a class="dropdown-item" href="{{ route('Termandcondition') }}">Terms and Conditions</a></li>
+                            <li><a class="dropdown-item" href="{{ route('RefundReturn') }}">Refund and Return Policy</a></li>
+                            <li><a class="dropdown-item" href="{{ route('PrivercyAndPolicy') }}">Privercy And Policy</a></li>
                         </ul>
                     </li>
 
@@ -132,9 +132,14 @@
                             Login
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="loginDropdown">
-                            <li><a class="dropdown-item" href="{{ route('index') }}">Login</a></li>
-                            <li><a class="dropdown-item" href="{{ route('index') }}">Register</a></li>
+                            <li><a class="dropdown-item" href="{{ route('login') }}">Login</a></li>
+                            <li><a class="dropdown-item" href="{{ route('register.form') }}">Register</a></li>
+                            <li><a class="dropdown-item" href="{{ route('admin.login') }}">Administrator</a></li>
+
                         </ul>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link donate-btn" href="{{ route('donate.form') }}">Donate Us</a>
                     </li>
                 </ul>
             </div>

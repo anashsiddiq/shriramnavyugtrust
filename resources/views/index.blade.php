@@ -14,28 +14,28 @@
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="https://bhagvahindvahini.in/testinomial-img/IMG-20230912-WA0081_10132023015556.jpg" class="d-block w-100" alt="Slide 1">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption">
                     <h5>Slide 1 Caption</h5>
                     <p>First slide description goes here.</p>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="https://bhagvahindvahini.in/testinomial-img/2_1272022104550.jpg" class="d-block w-100" alt="Slide 2">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption">
                     <h5>Slide 2 Caption</h5>
                     <p>Second slide description goes here.</p>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="https://bhagvahindvahini.in/testinomial-img/IMG-20231013-WA0021_10132023014638.jpg" class="d-block w-100" alt="Slide 3">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption">
                     <h5>Slide 3 Caption</h5>
                     <p>Third slide description goes here.</p>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="https://bhagvahindvahini.in/testinomial-img/IMG-20231013-WA0022_10132023014814.jpg" class="d-block w-100" alt="Slide 4">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption">
                     <h5>Slide 4 Caption</h5>
                     <p>Fourth slide description goes here.</p>
                 </div>
